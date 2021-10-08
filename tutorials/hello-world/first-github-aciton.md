@@ -23,7 +23,6 @@ The following example shows you how GitHub Actions jobs can be automatically tri
 ```yaml{:copy}
 name: GitHub Actions Demo
 on: [push]
-description: my first github action
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
