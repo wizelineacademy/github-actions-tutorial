@@ -1,0 +1,22 @@
+name: Reviewdog-Markdownlint
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  reviewdog-markdownlint:
+    name: reviewdog-markdown-linter
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+          node-version: [10.x]  
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+
+      - name: reviewdog-markdownlint
+        uses: reviewdog/action-markdownlint@v0.2.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: file

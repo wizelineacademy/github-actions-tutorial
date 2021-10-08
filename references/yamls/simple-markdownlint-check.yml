@@ -1,0 +1,30 @@
+name: Markdownlint
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  markdownlint:
+    name: markdown-linter
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+          node-version: [10.x]  
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+
+      - name: Install Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+            node-version: ${{ matrix.node-version }}
+
+      - name: Install markdownlint
+        run: |
+            npm install -g markdownlint-cli
+        continue-on-error: false
+
+      - name: Run markdownlint
+        run: |
+            markdownlint -f 'static_hugo_site/content/**/*.md'
+        continue-on-error: false

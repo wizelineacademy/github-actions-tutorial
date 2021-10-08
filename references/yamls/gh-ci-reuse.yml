@@ -1,0 +1,16 @@
+name: GitHub Actions Reusable actions
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  reuse-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+      - name: reviewdog-markdownlint
+        uses: reviewdog/action-markdownlint@v0.2.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
+          filter_mode: nofilter # file to only check new or mod files
