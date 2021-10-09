@@ -6,6 +6,7 @@ title = "Alpha by HTML5 UP"
 baseURL = "https://example.com"
 theme = "hugo-html5up-alpha"
 disqusShortname = ""
+canonifyurls = true
 
 [params]
   description = "Another fine responsive site template freebie by HTML5 UP."
@@ -37,7 +38,7 @@ link = "https://www.linkedin.com"
   [[menu.main]]
     identifier = "generic"
     name = "Generic"
-    url = "/generic/"
+    url = "generic/"
     weight = 10
   [[menu.main]]
     identifier = "contact"

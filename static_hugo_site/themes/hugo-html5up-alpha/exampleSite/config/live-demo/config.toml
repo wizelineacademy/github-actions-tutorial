@@ -6,7 +6,7 @@ baseURL = "https://hugo-html5up-alpha.nelsonroberto.com/"
   [[menu.main]]
     identifier = "generic"
     name = "Generic"
-    url = "/generic/"
+    url = "generic/"
     weight = 10
   [[menu.main]]
     identifier = "contact"

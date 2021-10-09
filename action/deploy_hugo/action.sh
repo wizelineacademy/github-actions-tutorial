@@ -29,4 +29,4 @@ git add docs/**
 git remote add github "${remote_repo}"
 
 git commit -m "publish site"
-git push --set-upstream github gh-pages
+git push --force --set-upstream github gh-pages

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elements on Alpha by HTML5 UP</title>
+    <link>https://example.com/elements/</link>
+    <description>Recent content in Elements on Alpha by HTML5 UP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://example.com/elements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text</title>
+      <link>https://example.com/elements/text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/elements/text/</guid>
+      <description>Text This is bold and this is strong. This is italic and this is emphasized. This is superscript text and this is subscript text. This is underlined and this is code: for (;;) { ... }. Finally, this is a link.
+  Heading with a Subtitle Lorem ipsum dolor sit amet nullam id egestas urna aliquam  Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.</description>
+    </item>
+    
+    <item>
+      <title>Lists</title>
+      <link>https://example.com/elements/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/elements/lists/</guid>
+      <description>Lists Unordered  Dolor pulvinar etiam. Sagittis lorem eleifend. Felis feugiat dolore viverra. Dolor pulvinar etiam.  Ordered  Dolor pulvinar etiam. Etiam vel felis at viverra. Felis enim feugiat magna. Etiam vel felis nullam. Felis enim et tempus.  Actions Primary Default Alt  Small Small Small  Primary Default Alt  Primary Small  Default Small  </description>
+    </item>
+    
+    <item>
+      <title>Table</title>
+      <link>https://example.com/elements/table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/elements/table/</guid>
+      <description>Table Default    NAME DESCRIPTION PRICE     Item 1 Ante turpis integer aliquet porttitor. 29.99   Item 2 Vis ac commodo adipiscing arcu aliquet. 19.99   Item 3 Morbi faucibus arcu accumsan lorem. 29.99   Item 4 Vitae integer tempus condimentum. 19.99   Item 5 Ante turpis integer aliquet porttitor. 29.99     100.00    </description>
+    </item>
+    
+    <item>
+      <title>Buttons</title>
+      <link>https://example.com/elements/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/elements/buttons/</guid>
+      <description>Buttons PRIMARY DEFAULT  LARGE DEFAULT SMALL  FIT FIT  FIT &amp;#43; SMALL FIT &amp;#43; SMALL  ICON ICON  PRIMARY DEFAULT  </description>
+    </item>
+    
+    <item>
+      <title>Form</title>
+      <link>https://example.com/elements/form/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/elements/form/</guid>
+      <description>Form   - Category - Manufacturing Shipping Administration Human Resources   Low  Normal  High  Email me a copy  I am a human               </description>
+    </item>
+    
+    <item>
+      <title>Image</title>
+      <link>https://example.com/elements/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/elements/image/</guid>
+      <description>Image Fit  Gallery         Left &amp;amp; Right  Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus.</description>
+    </item>
+    
+  </channel>
+</rss>

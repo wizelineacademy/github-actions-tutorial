@@ -37,7 +37,7 @@ link = "https://www.linkedin.com"
   [[menu.main]]
     identifier = "generic"
     name = "Generic"
-    url = "/generic/"
+    url = "generic/"
     weight = 10
   [[menu.main]]
     identifier = "contact"

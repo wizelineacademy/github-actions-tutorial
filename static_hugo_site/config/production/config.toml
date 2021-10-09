@@ -40,12 +40,12 @@ enableEmoji = true
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "about/"
     weight = 10
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/post/"
+    url = "post/"
     weight = 20
   [[menu.main]]
     identifier = "taxonomies"
@@ -56,19 +56,19 @@ enableEmoji = true
     parent = "taxonomies"
     identifier = "categories"
     name = "Categories"
-    url = "/categories/"
+    url = "categories/"
     weight = 31
   [[menu.main]]
     parent = "taxonomies"
     identifier = "tags"
     name = "Tags"
-    url = "/tags/"
+    url = "tags/"
     weight = 31
   [[menu.main]]
     parent = "taxonomies"
     identifier = "series"
     name = "Series"
-    url = "/series/"
+    url = "series/"
     weight = 33
 
 [taxonomies]

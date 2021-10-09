@@ -6,22 +6,22 @@ baseURL = "https://hugo-html5up-alpha.nelsonroberto.com/"
   [[menu.main]]
     identifier = "generic"
     name = "Generic"
-    url = "/generic/"
+    url = "generic/"
     weight = 10
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
-    url = "/contact/"
+    url = "contact/"
     weight = 20
   [[menu.main]]
     identifier = "elements"
     name = "Elements"
-    url = "/elements/"
+    url = "elements/"
     weight = 30
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/blog/"
+    url = "blog/"
     weight = 40
   [[menu.main]]
     identifier = "submenu"
