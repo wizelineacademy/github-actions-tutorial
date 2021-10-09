@@ -1,0 +1,19 @@
+<!-- Footer -->
+<footer id="footer">
+    <ul class="icons">
+        {{ range .Site.Params.share }}
+            <li><a href="{{ .link }}" class="icon brands {{ .icon }}"><span class="label">{{ .title }}</span></a></li>
+        {{ end }}
+    </ul>
+    <ul class="copyright">
+        {{ with .Site.Params.copyright }}
+        <li>{{ . | markdownify }}</li>
+        {{ end }}
+        {{ with .Site.Params.design }}
+        <li>{{ . | markdownify }}</li>
+        {{ end }}
+        {{ with .Site.Params.author }}
+        <li>{{ . | markdownify }}</li>
+        {{ end }}
+    </ul>
+</footer>
