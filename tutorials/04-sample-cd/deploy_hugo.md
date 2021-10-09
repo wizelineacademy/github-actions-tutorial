@@ -1,8 +1,8 @@
-# Traditional CI GitHub Actions
+# GitHub Actions CD workflow
 
 ## Introduction
 
-The following example shows you how GitHub Actions jobs help you setup a CI workflow
+The following example shows you how GitHub Actions jobs help you setup a CD workflow and deploy a Hugo site
 
 ## Creating your first CI workflow
 
@@ -47,4 +47,15 @@ jobs:
 1. Create Dev token [here](https://github.com/settings/tokens)
 
 1. Create Secret `MY_GITHUB_TOKEN` in https://github.com/<username>/github-actions-tutorial/settings/secrets/actions/new
-  
+
+1. Commit new cd workflow into main
+
+1. Active GitHub Pages. Navigate to your repo settings and in the side menu select Pages
+
+1. Select the gh-pages as your source branch and /docs for the folder and click on save
+
+1. Navigate to your publish site
+
+1. Fix your site config  in `static_hugo_site/config.toml` , `static_hugo_site/config/_default` and
+   `static_hugo_site/config/production`. the `baseURL` setting to your site URL
+   It will look like `https://<user>.github.io/github-actions-tutorial/`
