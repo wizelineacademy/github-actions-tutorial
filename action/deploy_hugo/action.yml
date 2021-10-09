@@ -1,0 +1,9 @@
+name: 'Deploy hugo site'
+description: 'Deploys hugo site'
+author: 'Charly Castro charlywazzap carlos.castro@wizeline.com'
+branding:
+  icon: 'arrow-up-circle'  
+  color: 'orange'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
