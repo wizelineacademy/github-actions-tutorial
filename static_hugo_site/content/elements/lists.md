@@ -5,7 +5,7 @@ weight = 20
 
 ### {{< param title >}}
 
-#### Unordered 
+#### Unordered
 
 - Dolor pulvinar etiam.
 - Sagittis lorem eleifend.
@@ -13,12 +13,12 @@ weight = 20
 - Dolor pulvinar etiam.
 
 #### Ordered
+
 1. Dolor pulvinar etiam.
 2. Etiam vel felis at viverra.
 3. Felis enim feugiat magna.
 4. Etiam vel felis nullam.
 5. Felis enim et tempus.
-
 
 #### Actions
 

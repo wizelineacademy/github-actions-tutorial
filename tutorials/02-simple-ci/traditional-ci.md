@@ -62,12 +62,7 @@ test: ## Unit test our code
 
 1. Review our current Open PR for failed CI
 
-1. Lets fix our fix `static_hugo_site/content/post/sample-post/index.md` line 21 and break it in 2
-
-```md
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows 
-whether basic HTML elements are decorated with CSS in a Hugo theme.
-```
+1. Lets fix our fix `static_hugo_site/content/elements/text.md` line 36 and 48 by adding one extra dash
 
 1. Commit file
 
