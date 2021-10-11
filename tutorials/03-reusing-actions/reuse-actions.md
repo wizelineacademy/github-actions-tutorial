@@ -1,8 +1,8 @@
-# Traditional CI GitHub Actions
+# GitHub Actions - Reusing your actions
 
 ## Introduction
 
-The following example shows you how GitHub Actions jobs help you setup a CI workflow
+The following example shows you how GitHub Actions can be reused from the marketplace
 
 ## Creating your first CI workflow
 
