@@ -1,0 +1,18 @@
+name: GitHub Actions CI
+on:
+  pull_request:
+    branches: [main]
+jobs:
+  mysite-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v2
+      - name: install dependencies
+        run: make deps
+      - name: test code
+        run: make test
+      - name: build code
+        run: make build
+      - name: store artifact
+        run: echo "save artifact where you want"
