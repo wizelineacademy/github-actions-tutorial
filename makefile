@@ -12,6 +12,7 @@ deps: ## Install dependencies
 .PHONY: test
 test: ## Unit test our code
 		@echo "testing code"
+		markdownlint -f 'static_hugo_site/content/**/*.md'
 
 .PHONY: build
 build: ## Builds our code 
