@@ -7,7 +7,6 @@ help: ## Display this help screen
 .PHONY: deps
 deps: ## Install dependencies
 	@echo "install  deps"
-	npm install -g markdownlint-cli
 
 .PHONY: test
 test: ## Unit test our code
