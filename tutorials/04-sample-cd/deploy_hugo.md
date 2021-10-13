@@ -48,9 +48,9 @@ jobs:
 
 1. Create Secret `MY_GITHUB_TOKEN` in https://github.com/<username>/github-actions-tutorial/settings/secrets/actions/new
 
-1. Commit new cd workflow into main
+1. Commit new cd workflow into the main branch
 
-1. Active GitHub Pages. Navigate to your repo settings and in the side menu select Pages
+1. Activate GitHub Pages. Navigate to your repo settings and in the side menu select Pages
 
 1. Select the gh-pages as your source branch and /docs for the folder and click on save
 

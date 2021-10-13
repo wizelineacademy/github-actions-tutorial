@@ -43,7 +43,7 @@ jobs:
 
 1. Review our current Open PR for failed CI
 
-1. Lets fix our fix `static_hugo_site/content/elements/text.md` line 36 and 48 by adding one extra dash
+1. Lets fix our fix `static_hugo_site/content/elements/text.md` line 36 and 48 by adding one extra dash character
 
 1. Commit file
 

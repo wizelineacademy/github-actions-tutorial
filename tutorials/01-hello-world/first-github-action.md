@@ -2,7 +2,7 @@
 
 ## Introduction
 
-You only need a Github repository to create and run a Github Action workflow. In this guide, you'll add a workflow that demonstrates some of the essential features of GitHub Actions. 
+You only need a GitHub repository to create and run a GitHub Action workflow. In this guide, you'll add a workflow that demonstrates some of the essential features of GitHub Actions. 
 
 The following example shows you how GitHub Actions jobs can be automatically triggered, where they run, and how they can interact with the code in your repository.
 
