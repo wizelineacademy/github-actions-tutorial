@@ -33,7 +33,7 @@ Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor s
 ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in
 adipiscing blandit tempus accumsan.
 
----
+----
 
 ## HEADING LEVEL 2
 
@@ -45,7 +45,7 @@ adipiscing blandit tempus accumsan.
 
 ###### HEADING LEVEL 6
 
----
+----
 
 #### BLOCKQUOTE
 
