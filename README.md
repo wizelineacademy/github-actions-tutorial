@@ -1,4 +1,4 @@
-# Github Actions Tutorial
+# GitHub Actions Tutorial
 
 In this repo our goal is for you to learn the following
 
