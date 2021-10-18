@@ -2,7 +2,7 @@
 ## For a more detailed example of the themes capabilities look at "development/config.toml"
 languageCode = "en-us"
 title = "Alpha by HTML5 UP"
-baseURL = "https://example.com"
+baseURL = "https://github.com/Castellanos-Daniel/github-actions-tutorial"
 theme = "hugo-html5up-alpha"
 disqusShortname = ""
 

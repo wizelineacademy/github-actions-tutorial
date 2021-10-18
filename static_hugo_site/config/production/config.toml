@@ -1,5 +1,5 @@
 ## Everything below is specific to the hugoBasicExample
-baseURL = "https://example.com"
+baseURL = "https://github.com/Castellanos-Daniel/github-actions-tutorial"
 
 [params]
   description = "A Hugo port of the static html template Alpha by HTML5 UP."
