@@ -1,0 +1,24 @@
+name: Deploy hugo site to gihubpages
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  hugo-github-pages:
+    name: hugo-github-pages
+    runs-on: ubuntu-latest
+    strategy:
+        matrix:
+          node-version: [10.x]  
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          
+      - name: build hugo
+        uses: ./action/deploy_hugo/
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
