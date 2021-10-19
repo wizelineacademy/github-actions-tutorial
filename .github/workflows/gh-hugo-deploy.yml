@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - tutorial-4
 
 jobs:
   hugo-github-pages:
